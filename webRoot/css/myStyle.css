@@ -1,0 +1,41 @@
+body {
+	background-color: #F56360
+}
+
+h1{
+	color: yellow;
+	text-align: center;
+}
+
+h2{
+	color: yellow;
+	text-align: center;
+}
+
+h3{
+	color: #1CBB9B;
+	text-align: center;
+}
+img{
+	border: 2px solid #1CBB9B;;
+	vertical-align: center;
+	float: left;
+	margin: 10px;
+}
+
+#square{
+	margin-left: 40%;
+	margin-top: 10px;
+	height: 100px;
+	width: 100px;
+	background-color: yellow;
+
+}
+button{
+	text-align: center;
+	margin-left: 5%;
+	margin-top: 20px;
+	height: 100px;
+	color: green;
+	font-size: 20px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Test</title>
+	<link rel="stylesheet" type="text/css" href="css/myStyle.css">
+</head>
+<body>
+<h1>Javascript Render Test</h1>
+<h2> <a href="index.html"> Take Me Back To Homepage </a></h2>
+
+<div id="square">
+	
+</div>
+<button type="button" onclick="colorChange()">click me to change the color of the square</button>
+
+<button type="button" onclick="widthChange()">click me to change the width of the square</button>
+
+<script type="text/javascript">
+	function colorChange(){
+		document.getElementById("square").style.backgroundColor = "blue";
+	}
+
+	function widthChange(){
+		document.getElementById("square").style.width = "300px";
+	}
+</script>
+
+
+</body>
+</html>
